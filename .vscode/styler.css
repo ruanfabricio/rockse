@@ -32,7 +32,9 @@
 
   /*background:color image repeat position/sizer */
 
-  background:var(--bg-url) top center/cover 
+  background:var(--bg-url) top center/cover;
+
+  height: 100vh;
 }
 
 body * {
@@ -174,4 +176,15 @@ footer {
   text-align: center;
   gap:16px;
   font-size: 16px;
+}
+
+/* midia queries*/
+@media(min-width:700px) {
+  :root{
+    --bg-url:url(./assets/bg-desktop.jpg)
+  }
+
+  .light{
+    --bg-url:url(./assets/bg-desktop-light.jpg)
+  }
 }
