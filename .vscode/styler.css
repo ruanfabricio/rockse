@@ -41,7 +41,9 @@ color: var(--text-color);
 }
 
 #container{
-  width: 360px;
+  /* max-width foi adapitado para 450px mais era para está em 588p */
+  width:100%;
+  max-width:450px;
   margin:56px auto 0px ;
 }
 
